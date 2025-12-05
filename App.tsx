@@ -142,8 +142,8 @@ const App: React.FC = () => {
                <span className="font-serif font-bold text-xl text-ethio-ink dark:text-ethio-teff">L</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-display font-bold text-sm tracking-widest uppercase">Lalu Graphics</span>
-              <span className="text-[10px] text-gray-500 dark:text-gray-400 tracking-wide hidden md:block">Visual Sovereignty</span>
+              <span className="font-display font-bold text-sm tracking-widest uppercase">Design Handbook</span>
+              <span className="text-[10px] text-gray-500 dark:text-gray-400 tracking-wide hidden md:block">Curated by Leul</span>
             </div>
           </div>
           

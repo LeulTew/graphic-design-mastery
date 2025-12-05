@@ -16,6 +16,8 @@ declare global {
       ambientLight: any;
       spotLight: any;
       pointLight: any;
+      // Allow any HTML/SVG elements
+      [elemName: string]: any;
     }
   }
 }
