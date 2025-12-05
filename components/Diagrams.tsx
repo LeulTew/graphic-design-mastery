@@ -356,7 +356,7 @@ export const HygieneChecklist: React.FC = () => {
                 <div>
                     <h4 className="font-bold text-ethio-ink dark:text-white mb-4 flex items-center gap-2"><AlertTriangle size={18} className="text-red-500"/> Copyright Warning</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-                        Never "Right Click -> Save" from Google Images. If you use a copyrighted image for a client, they can be sued.
+                        Never "Right Click &rarr; Save" from Google Images. If you use a copyrighted image for a client, they can be sued.
                     </p>
                     <ul className="space-y-3">
                         <li className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
