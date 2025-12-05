@@ -1,4 +1,3 @@
-
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -22,22 +21,10 @@ import {
   VectorMasterclassModal
 } from './components/Diagrams';
 
-import {
-  MotionMicroInteractions,
-  AiWorkflowDiagram
-} from './components/ModernTech';
-
-import {
-  PortfolioCaseStudyTemplate,
-  PricingStrategyCalculator
-} from './components/BusinessLogic';
-
-import {
-  WhiteSpaceVisualizer,
-  ProductionReadyGuide,
-  ResponsiveGuide,
-  AccessibilityCheck
-} from './components/PracticalGuides';
+import { MotionMicroInteractions } from './components/Motion';
+import { AiWorkflowDiagram } from './components/Intelligence';
+import { PortfolioCaseStudyTemplate, PricingStrategyCalculator } from './components/Career';
+import { WhiteSpaceVisualizer, ProductionReadyGuide, ResponsiveGuide, AccessibilityCheck } from './components/Essentials';
 
 import { ArrowDown, Menu, X, Globe, Layout, Zap, Sun, Moon, Printer, Box, Layers, Scissors, Briefcase, Smartphone, Github, Linkedin, Mail, ExternalLink, MousePointer, Type } from 'lucide-react';
 
@@ -155,8 +142,8 @@ const App: React.FC = () => {
                <span className="font-serif font-bold text-xl text-ethio-ink dark:text-ethio-teff">L</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-display font-bold text-sm tracking-widest uppercase">Design Handbook</span>
-              <span className="text-[10px] text-gray-500 dark:text-gray-400 tracking-wide hidden md:block">Curated by Leul</span>
+              <span className="font-display font-bold text-sm tracking-widest uppercase">Lalu Graphics</span>
+              <span className="text-[10px] text-gray-500 dark:text-gray-400 tracking-wide hidden md:block">Visual Sovereignty</span>
             </div>
           </div>
           
@@ -648,7 +635,7 @@ const App: React.FC = () => {
                     <div className="w-10 h-10 border border-ethio-tibeb rounded-full flex items-center justify-center">
                        <span className="font-serif font-bold text-xl text-ethio-ink dark:text-ethio-teff">L</span>
                     </div>
-                    <h3 className="font-display font-bold uppercase tracking-widest text-sm">Design Handbook</h3>
+                    <h3 className="font-display font-bold uppercase tracking-widest text-sm">Lalu Graphics</h3>
                  </div>
                  <p className="text-sm text-gray-500 leading-relaxed">
                     A digital love letter to the Ethiopian creative spirit. Designed to equip Lalu with the tools of tomorrow.
@@ -707,7 +694,7 @@ const App: React.FC = () => {
 
            <div className="pt-8 border-t border-gray-200 dark:border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-xs text-gray-400">
-                 © 2025 . All Rights Reserved.
+                 © 2025 Lalu Graphics. All Rights Reserved.
               </div>
               <div className="flex gap-4 text-xs font-mono text-gray-500 uppercase tracking-widest">
                  <span>Code</span>
